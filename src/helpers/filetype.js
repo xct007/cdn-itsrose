@@ -11,6 +11,7 @@ export async function fileType(file) {
 	};
 }
 
+// TODO: add support for other file types
 export async function is_supported(file) {
 	const spp = ["image", "audio", "video"];
 	const { mime } = await fileTypeFromFile(file);
