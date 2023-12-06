@@ -45,8 +45,8 @@ Response - 200 - OK
     "code": 200,
     "result": {
         "url": "http://domain.com/file/DIegfhdkfa.file",
-        "expire_in": 60,
-        "expire_in_h": "1 minute",
+        "expire_in": 86400,
+        "expire_in_h": "24 hours",
         "size": 124,
         "size_h": "123 B",
     },
