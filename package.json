@@ -1,0 +1,25 @@
+{
+	"name": "cdn-itsrose",
+	"version": "1.0.0",
+	"description": "A simple cdn for itsrose.life",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": "https://github.com/xct007/cdn-itsrose",
+	"author": "FrierenDv",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^1.6.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"file-type": "^18.7.0",
+		"helmet": "^7.1.0",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.5-lts.1",
+		"node-cron": "^3.0.3",
+		"uuid": "^9.0.1"
+	}
+}
